@@ -1,0 +1,20 @@
+# Local / editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Never publish local secrets or database exports
+.env
+.env.*
+!.env.example
+*.sql
+*.dump
+*.backup
+backup/
+
+# Build artifacts
+node_modules/
+.next/
+dist/
+build/
+coverage/
